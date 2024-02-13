@@ -1,0 +1,57 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-UA-compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula Tabela</title>
+    <style>
+        table, th, td {border: 1px solid black;
+        }
+    </style>
+    <!-- table, th, td {border: 1px solid black; style estilo da tabela th e td seria linhas e colunas
+                border bordas -->
+</head>
+
+<body>
+    <table>
+        <tr>
+            <!-- pode seragrupado por thead seria como a cabeça da tabela-->
+            <th>Nome</th>
+            <th>Idade</th>
+            <th>Informações</th>
+            <th>Informações</th>
+            <th>Informações</th>
+            <th>Informações</th>
+            <th>Informações</th>
+        </tr>
+        <tr>
+            <!--pode ser agrupado por tbody que seria o corpo da tabela -->
+            <td>João</td>
+            <td>25</td>
+            <td>Sou estudante</td>
+        </tr>
+        <tr>
+            <td rowspan="3">José</td>
+            <td>25</td>
+            <td>Sou estudante</td>
+            <!-- rowspan="3" seria uma forma da informação listada ficar em mais de uma coluna-->
+        </tr>
+        <tr>
+            <td>Jil</td>
+            <td>25</td>
+            <td>Sou estudante</td>
+        </tr>
+        <tr>
+            <td>Tereza</td>
+            <td>23</td>
+            <td colspan="3">Programadora</td>
+            <!-- colspan="3" seria uma forma da informação listada ficar em mais de uma linha-->
+        </tr>
+        
+    </table>
+</body>
+
+</html>
